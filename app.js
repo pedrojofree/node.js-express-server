@@ -12,7 +12,7 @@ app.use(express.static('public')) //RECONOCER ARCHIVOS ESTATICOS (CSS)
 // RUTAS PRE RENDERIZADAS ----------------------------
 app.get('/', (req, res) => {
   res.render('home', {
-    titulo: 'Node y Express. Rutas y template engines'
+    titulo: 'Node and Express.'
   });
 })
 app.get('/generic', (req, res) => {
