@@ -1,0 +1,17 @@
+{
+  "name": "06-transf-server",
+  "version": "1.0.0",
+  "description": "tranformando un sitio web de cliente a servidor con Node y Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Pedro Jofre",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0"
+  }
+}
